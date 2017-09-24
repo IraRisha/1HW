@@ -1,0 +1,29 @@
+/* CSS Document */
+
+element.style {
+    }
+body {
+    background-color: maroon;
+}
+
+p {
+    text-align: left;
+    font-family: "Century";
+    font-size: x-large;
+    color: black;
+    text-align: justify
+}
+
+h3 {
+    text-align: left;
+    font-family: "Century";
+    font-size: x-large;
+    color: black;
+}
+
+.form {
+    border-color:maroon;
+    box-sizing: content-box;
+    background-color: blanchedalmond;
+}
+
