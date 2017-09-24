@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style>
+        body {
+            line-height: 35px;
+            text-align: center;
+            font-family: Century;
+        }
+    </style>
+</head>
+<body>
+    <address>
+        Если у Вас возникли вопросы, Вы можете заполнить форму, представленную ниже, и отправить вопрос автору
+    </address>
+
+    <form method="post">
+        <div class="form">
+            <label for="name">Ваше имя:</label><br/>
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br/>
+
+            <label for="email">Электронный адрес:</label><br/>
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br/>
+
+            <label for="message">Задайте вопрос автору:</label><br/>
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
+        </div>
+            <input id="submit_button" type="submit" value="Отправить сообщение"/>
+    </form>
+</body>
+</html>
